@@ -5,3 +5,19 @@
     max-height:450px; 
     background-size: cover;
 }
+
+.roundcorners{
+    border-radius: 25px;
+}
+
+.qa-dark-gray{
+    background: #2d2c2c;
+}
+
+.qa-dark-red{
+    background: #771616;
+}
+
+.qa-dark-blue{
+    background: #15263c;
+}
