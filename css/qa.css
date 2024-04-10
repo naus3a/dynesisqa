@@ -12,12 +12,30 @@
 
 .qa-dark-gray{
     background: #2d2c2c;
+    color: #ffffff;
 }
 
 .qa-dark-red{
     background: #771616;
+    color: #ffffff;
 }
 
 .qa-dark-blue{
     background: #15263c;
+    color: #ffffff;
+}
+
+.qa-light-gray{
+    background: #e0e0e0;
+    color: #000000;
+}
+
+.qa-light-red{
+    background: #f49f92;
+    color: #000000;
+}
+
+.qa-light-blue{
+    background: #8cbfdd;
+    color: #000000;
 }
