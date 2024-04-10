@@ -1,0 +1,7 @@
+.qa-panel{
+    min-width:900px;  
+    max-width:900px; 
+    min-height:450px; 
+    max-height:450px; 
+    background-size: cover;
+}

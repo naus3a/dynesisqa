@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Dynesis QA</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/qa.css">
+    <style>
+    </style>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="js/qa.js"></script>
+    <body>
+        <section id="qa-start" class="w3-container w3-center w3-content qa-panel" style="background-image: url('img/qa0_bg.png');">
+            <h1>Try the Magic Yourself.</h1>
+            <h1>Pick a Service.</h1>
+            <nav class="w3-bar">
+                <a id="btnMessaging" class="w3-button w3-bar-item">Messaging</a>
+                <a id="btnBranding" class="w3-button w3-bar-item">Branding</a>
+                <a id="btnUX" class="w3-button w3-bar-item">UX</a>
+            </nav>
+        </section>
+        <section id="qa-letsgo" class="w3-container w3-center w3-content qa-panel" style="display: none;">
+            <h1>Answer 3 Questions</h1>
+            <h1>and Experience the</h1>
+            <h1>Magic Yourself</h1>
+            <nav class="w3-bar">
+                <a id="btnLetsgo" class="w3-button w3-bar-item">Let's go!</a>
+            </nav>
+        </section>
+        <!--messaging-->
+        <section id="qa-messaging-1" class="w3-container w3-center w3-content w3-grey qa-panel" style="display: none;">
+            <div class="w3-row" >
+                <div class="w3-col s6 w3-center">
+                    <h1>Let's Create Your Messaging Story</h1>
+                </div>
+                <div class="w3-col w3-light-grey s6 w3-center">
+                    <h2>Who is Your Customer?</h2>
+                    <p>Elaborate around their needs and socio demographic attributes.</p>
+                    <form class="w3-container">
+                        <input class="w3-input" id="qa-messaging-input-1" type="text">
+                    </form>
+                    <nav class="w3-bar">
+                        <a class="w3-button w3-bar-item btn-question1">Next</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section id="qa-messaging-2" class="w3-container w3-center w3-content w3-grey qa-panel" style="display: none;">
+            <div class="w3-row" >
+                <div class="w3-col s6 w3-center">
+                    <h1>Let's Create Your Messaging Story</h1>
+                </div>
+                <div class="w3-col w3-light-grey s6 w3-center">
+                    <h2>What Problem Do You Solve?</h2>
+                    <p>Let us know how your customer benefits from your product or service.</p>
+                    <form class="w3-container">
+                        <input class="w3-input" id="qa-messaging-input-2" type="text">
+                    </form>
+                    <nav class="w3-bar">
+                        <a class="w3-button w3-bar-item btn-question2">Next</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section id="qa-messaging-3" class="w3-container w3-center w3-content w3-grey qa-panel" style="display: none;">
+            <div class="w3-row" >
+                <div class="w3-col s6 w3-center">
+                    <h1>Let's Create Your Messaging Story</h1>
+                </div>
+                <div class="w3-col w3-light-grey s6 w3-center">
+                    <h2>Why Would One Choose You?</h2>
+                    <p>Talk a bit about what makes you different from others.</p>
+                    <form class="w3-container">
+                        <input class="w3-input" id="qa-messaging-input-3" type="text">
+                    </form>
+                    <nav class="w3-bar">
+                        <a class="w3-button w3-bar-item btn-question3">Next</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!--branding-->
+        <section id="qa-branding-1" class="w3-container w3-center w3-content w3-red qa-panel" style="display: none;">
+            <div class="w3-row" >
+                <div class="w3-col s6 w3-center">
+                    <h1>Let's Create Your Branding Story</h1>
+                </div>
+                <div class="w3-col w3-light-red s6 w3-center">
+                    <h2>Who is Your Customer?</h2>
+                    <p>Elaborate around their needs and socio demographic attributes.</p>
+                    <form class="w3-container">
+                        <input class="w3-input" id="qa-branding-input-1" type="text">
+                    </form>
+                    <nav class="w3-bar">
+                        <a class="w3-button w3-bar-item btn-question1">Next</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section id="qa-branding-2" class="w3-container w3-center w3-content w3-red qa-panel" style="display: none;">
+            <div class="w3-row" >
+                <div class="w3-col s6 w3-center">
+                    <h1>Let's Create Your Branding Story</h1>
+                </div>
+                <div class="w3-col w3-light-red s6 w3-center">
+                    <h2>What Is Your Product?</h2>
+                    <p>Let us know what product or service yo are offering and how it works.</p>
+                    <form class="w3-container">
+                        <input class="w3-input" id="qa-branding-input-2" type="text">
+                    </form>
+                    <nav class="w3-bar">
+                        <a class="w3-button w3-bar-item btn-question2">Next</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section id="qa-branding-3" class="w3-container w3-center w3-content w3-red qa-panel" style="display: none;">
+            <div class="w3-row" >
+                <div class="w3-col s6 w3-center">
+                    <h1>Let's Create Your Branding Story</h1>
+                </div>
+                <div class="w3-col w3-light-red s6 w3-center">
+                    <h2>Why Do Your Exist?</h2>
+                    <p>Tell us what your purpose, your vision, mission and values are.</p>
+                    <form class="w3-container">
+                        <input class="w3-input" id="qa-branding-input-3" type="text">
+                    </form>
+                    <nav class="w3-bar">
+                        <a class="w3-button w3-bar-item btn-question3">Next</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!--UX-->
+        <section id="qa-ux-1" class="w3-container w3-center w3-content w3-blue qa-panel" style="display: none;">
+            <div class="w3-row" >
+                <div class="w3-col s6 w3-center">
+                    <h1>Let's Create Your UX Story</h1>
+                </div>
+                <div class="w3-col w3-light-blue s6 w3-center">
+                    <h2>Who is Your Customer?</h2>
+                    <p>Elaborate around their needs and socio demographic attributes.</p>
+                    <form class="w3-container">
+                        <input class="w3-input" id="qa-ux-input-1" type="text">
+                    </form>
+                    <nav class="w3-bar">
+                        <a class="w3-button w3-bar-item btn-question1">Next</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section id="qa-ux-2" class="w3-container w3-center w3-content w3-blue qa-panel" style="display: none;">
+            <div class="w3-row" >
+                <div class="w3-col s6 w3-center">
+                    <h1>Let's Create Your UX Story</h1>
+                </div>
+                <div class="w3-col w3-light-blue s6 w3-center">
+                    <h2>What Experience Do Your Offer?</h2>
+                    <p>Let us know what the key features of your website or app's user experience should be.</p>
+                    <form class="w3-container">
+                        <input class="w3-input" id="qa-ux-input-2" type="text">
+                    </form>
+                    <nav class="w3-bar">
+                        <a class="w3-button w3-bar-item btn-question2">Next</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section id="qa-ux-3" class="w3-container w3-center w3-content w3-blue qa-panel" style="display: none;">
+            <div class="w3-row" >
+                <div class="w3-col s6 w3-center">
+                    <h1>Let's Create Your UX Story</h1>
+                </div>
+                <div class="w3-col w3-light-blue s6 w3-center">
+                    <h2>Why Should a Customer Use It?</h2>
+                    <p>Talk about what you want to achieve by having the customer use your website or app.</p>
+                    <form class="w3-container">
+                        <input class="w3-input" id="qa-ux-input-3" type="text">
+                    </form>
+                    <nav class="w3-bar">
+                        <a class="w3-button w3-bar-item  ">Next</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!--Contacts-->
+        <section id="qa-contacts" class="w3-container w3-center w3-content qa-panel" style="display: none;">
+            <div class="w3-row" >
+                <div class="w3-col s6 w3-center">
+                    <h1>Last but Not Least,</h1>
+                    <h1>Let's Connect.</h1>
+                </div>
+                <div class="w3-col w3-light-blue s6 w3-center">
+                    <h2>Enter Your Credentials</h2>
+                    <form class="w3-container" action="https://formspree.io/f/moqgpwyj" method="POST">
+                        <input class="w3-input" id="qa-contacts-name" type="text" name="name" onfocus="this.value='';" value="Your first and last name">
+                        <input class="w3-input" id="qa-contacts-company" type="text" name="company" onfocus="this.value='';" value="Your company name">
+                        <input class="w3-input" id="qa-contacts-email" type="email" name="email" onfocus="this.value='';" value="john@appleseed.com">
+                        <input type="hidden" name="result" value="" id="qa-contacts-result">
+                        <button id="btnSubmit" type="submit">Submit now!</button>
+                    </form>
+                    <!--<nav class="w3-bar">
+                        <a id="btnSubmit" class="w3-button w3-bar-item">Submit now</a>
+                    </nav>-->
+                </div>
+            </div>
+        </section>
+        <section id="qa-end" class="w3-container w3-center w3-content qa-panel" style="display: none;">
+            <h1>Awesome!</h1>
+            <h1>You will hear from us!</h1>
+        </section>
+    </body>
+    <script>
+        window.onload = function(e){
+            resetQA();
+        }
+    </script>
+</html>
