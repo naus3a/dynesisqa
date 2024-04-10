@@ -6,6 +6,11 @@
     background-size: cover;
 }
 
+.qa-3buttons{
+    min-width:25%;  
+    max-width:25%;
+}
+
 .roundcorners{
     border-radius: 25px;
 }
