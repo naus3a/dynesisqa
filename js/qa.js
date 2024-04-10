@@ -3,7 +3,7 @@ var curService = 0;
 var serviceNames = [
     "messaging",
     "branding",
-    "UX"
+    "ux"
 ];
 var qaSections = []
 

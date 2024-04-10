@@ -32,6 +32,11 @@
     border-radius: 25px;
 }
 
+.qa-darkest{
+    background: #181c20;
+    color: #ffffff;
+}
+
 .qa-dark-gray{
     background: #2d2c2c;
     color: #ffffff;
