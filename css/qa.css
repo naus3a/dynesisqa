@@ -11,6 +11,23 @@
     max-width:25%;
 }
 
+.qa-center-row{
+    min-width:900px;  
+    max-width:900px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.qa-left-title{
+    padding-top: 100px;
+}
+
+.qa-question-input{
+    min-height:200px; 
+    max-height:200px; 
+}
+
 .roundcorners{
     border-radius: 25px;
 }
